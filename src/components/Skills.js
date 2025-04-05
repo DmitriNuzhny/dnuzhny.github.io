@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Skills = () => {
   const skills = {
     languages: ['JavaScript', 'Java', 'Python', 'PHP', 'Solidity', 'Solana'],
@@ -7,7 +9,7 @@ const Skills = () => {
 
   return (
     <section id="skills" className="skills-section">
-      <h2>Skills</h2>
+      <h2 className="section-title">Technical Skills</h2>
       <div className="skills-container">
         <div className="skills-category">
           <h3>Languages</h3>
@@ -17,7 +19,22 @@ const Skills = () => {
             ))}
           </ul>
         </div>
-        {/* ... similar structure for frameworks and other ... */}
+        <div className="skills-category">
+          <h3>Frameworks</h3>
+          <ul>
+            {skills.frameworks.map((skill, index) => (
+              <li key={index}>{skill}</li>
+            ))}
+          </ul>
+        </div>
+        <div className="skills-category">
+          <h3>Tools & Technologies</h3>
+          <ul>
+            {skills.other.map((skill, index) => (
+              <li key={index}>{skill}</li>
+            ))}
+          </ul>
+        </div>
       </div>
     </section>
   );

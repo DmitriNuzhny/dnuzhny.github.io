@@ -18,6 +18,9 @@ function App() {
         <Education />
         <Contact />
       </main>
+      <footer className="footer">
+        <p>© {new Date().getFullYear()} Dmitri Nuzhny. All rights reserved.</p>
+      </footer>
     </div>
   );
 }

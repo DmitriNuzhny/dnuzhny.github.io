@@ -10,7 +10,7 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   },
-  "homepage": "https://braveman.github.io/dnuzhny.github.io",
+  "homepage": "https://dnuzhny.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -18,5 +18,17 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
