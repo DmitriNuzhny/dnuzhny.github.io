@@ -3,7 +3,7 @@ import React from 'react';
 const Skills = () => {
   const skills = {
     languages: ['JavaScript', 'Java', 'Python', 'PHP', 'Solidity', 'Solana'],
-    frameworks: ['React', 'Node', 'Spring Boot', 'Django', 'Laravel', 'web3'],
+    frameworks: ['React', 'Node', 'Spring Boot', 'Django', 'Laravel', 'Web3'],
     other: ['Git', 'Azure', 'AWS', 'Linux', 'TensorFlow', 'Selenium']
   };
 
